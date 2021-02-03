@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import Button from '../../core/components/Button'
 
 import './styles.css'
@@ -7,7 +8,7 @@ const Home = () => {
     <div className="home-content">
       <h1 className="home-title">
         Desafio do Capítulo 3, <br />
-        BootcampDevSuperior
+        Bootcamp DevSuperior
       </h1>
 
       <p className="home-description">Bem-vindos ao desafio do capítulo 3 do Bootcamp DevSuperior.</p>
@@ -20,7 +21,9 @@ const Home = () => {
         Este design foi adaptado a partir de Ant Design System for Figma, de Mateusz Wierzbicki: <span className="home-description-email">antforfigma@gmail.com</span>
       </p> */}
 
-      <Button text="Começar" />
+      <Link to="/search">
+        <Button text="Começar" />
+      </Link>
     </div>
   )
 }

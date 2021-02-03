@@ -20,6 +20,12 @@ const Search = () => {
 
         <Button text="Encontrar" />
       </div>
+
+      <div className="search-result-content">
+        <img src="https://avatars.githubusercontent.com/u/60019382?s=460&u=b336f565f0efc9a7a666c929458b0715b84f4c19&v=4" alt="github-user"/>
+        <Button text="Ver perfil" />
+
+      </div>
     </div>
   )
 }

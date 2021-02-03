@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom'
-
 import './styles.css'
 
 type Props = {
@@ -8,7 +6,9 @@ type Props = {
 
 const Button = ({ text }: Props) => {
   return (
-    <Link to="/search" className="main-button">{ text }</Link>
+    <button className="main-button">
+      { text }
+    </button>
   )
 }
 

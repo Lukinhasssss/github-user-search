@@ -4,11 +4,16 @@
   justify-content: center;
   width: 100px;
   height: 40px;
+  border: 0;
   border-radius: 4px;
   margin-top: 30px;
   background-color: #1890FF;
   color: #FFF;
   font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  outline: 0;
   transition: 0.3s;
 }
 
