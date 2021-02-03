@@ -1,0 +1,44 @@
+.home-content {
+  display: flex;
+  flex-direction: column;
+  margin: 120px 120px 40px 120px;
+}
+
+.home-title {
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  color: #062847;
+}
+
+.home-description {
+  width: 612px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  color: #5A6774;
+  margin-bottom: 15px;
+}
+
+.home-description-email {
+  color: #349DFE;
+}
+
+.home-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 40px;
+  border-radius: 4px;
+  margin-top: 30px;
+  background-color: #1890FF;
+  color: #FFF;
+  font-family: Roboto, sans-serif;
+  transition: 0.3s;
+}
+
+.home-button:hover {
+  background-color: #107de2;
+}

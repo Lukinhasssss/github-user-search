@@ -1,11 +1,11 @@
-import Navbar from './core/components/Navbar';
+import Routes from './Routes';
 
 import './app.css';
 
 const App = () => {
   return (
-    <Navbar />
-  );
+    <Routes />
+  )
 }
 
 export default App;
