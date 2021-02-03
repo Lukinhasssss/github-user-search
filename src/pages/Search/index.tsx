@@ -1,8 +1,18 @@
+import Button from '../../core/components/Button'
 import './styles.css'
 
 const Search = () => {
   return (
-    <h1>Pesquisar usuário</h1>
+    <div className="search-container">
+      <div className="search-content">
+        <h1 className="search-title">Encontre um perfil Github</h1>
+        
+        <input type="text"/>
+
+        <Button text="Encontrar" />
+
+      </div>
+    </div>
   )
 }
 

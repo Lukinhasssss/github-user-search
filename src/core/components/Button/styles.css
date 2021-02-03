@@ -1,0 +1,17 @@
+.main-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 40px;
+  border-radius: 4px;
+  margin-top: 30px;
+  background-color: #1890FF;
+  color: #FFF;
+  font-family: Roboto, sans-serif;
+  transition: 0.3s;
+}
+
+.main-button:hover {
+  background-color: #107de2;
+}
