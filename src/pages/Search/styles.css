@@ -38,6 +38,11 @@
   outline: 0;
 }
 
+.button-find {
+  width: 100px;
+  display: inline-block;
+}
+
 .search-result-content {
   padding: 30px;
   background-color: #F5F5F5;
@@ -55,7 +60,7 @@
   border-radius: 8px;
 }
 
-.search-result-perfil a {
+.search-result-perfil div {
   width: 100px;
 }
 
