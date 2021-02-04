@@ -4,6 +4,7 @@ import Button from '../../core/components/Button'
 import { makeRequest } from '../../core/utils/requests'
 import ImageLoader from './components/Loaders/ImageLoader'
 import InfoLoader from './components/Loaders/InfoLoader'
+import dayjs from 'dayjs'
 
 import './styles.css'
 
@@ -92,7 +93,7 @@ const Search = () => {
                 <p><strong>Empresa:</strong> { githubResponse?.company }</p>
                 <p><strong>Website/Blog:</strong> { githubResponse?.blog }</p>
                 <p><strong>Localidade:</strong> { githubResponse?.location }</p>
-                <p><strong>Membro desde:</strong> { githubResponse?.created_at }</p>
+                <p><strong>Membro desde:</strong> { dayjs(githubResponse?.created_at).format('DD/MM/YYYY') }</p>
               </div>
             </div>
           )}
