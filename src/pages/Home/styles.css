@@ -24,3 +24,8 @@
 .home-description-email {
   color: #349DFE;
 }
+
+.home-button {
+  width: 100px;
+  margin-top: 20px;
+}

@@ -21,7 +21,7 @@ const Home = () => {
         Este design foi adaptado a partir de Ant Design System for Figma, de Mateusz Wierzbicki: <span className="home-description-email">antforfigma@gmail.com</span>
       </p> */}
 
-      <Link to="/search">
+      <Link to="/search" className="home-button">
         <Button text="Começar" />
       </Link>
     </div>

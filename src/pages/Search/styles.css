@@ -1,12 +1,13 @@
 .search-container {
   margin: 60px 90px;
+  max-width: 1500px;
 }
 
 .search-content {
   background-color: #E6F7FF;
   border-radius: 16px;
   padding: 65px 95px 40px 95px;
-  max-width: 1250px;
+  margin-bottom: 55px;
 }
 
 .search-title {
@@ -33,6 +34,80 @@
   line-height: 24px;
   color: #BFBFBF;
   margin-top: 12px;
-  margin-bottom: -10px;
+  margin-bottom: 24px;
   outline: 0;
+}
+
+.search-result-content {
+  padding: 30px;
+  background-color: #F5F5F5;
+  border-radius: 8px;
+  display: flex;
+}
+
+.search-result-perfil {
+  margin-right: 44px;
+}
+
+.search-result-perfil-img {
+  width: 280px;
+  margin-bottom: 17px;
+  border-radius: 8px;
+}
+
+.search-result-perfil a {
+  width: 100px;
+}
+
+.search-result-info {
+  flex: 1;
+}
+
+.github-info span {
+  background-color: #FFF;
+  padding: 1px 14px;
+  height: 20px;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  color: #595959;
+  
+  display: inline-block;
+  align-items: center;
+  border: 1px solid #D9D9D9;
+  border-radius: 5px;
+  margin-right: 8px;
+}
+
+.perfil-info {
+  background-color: #FFF;
+  border: 1px solid #D9D9D9;
+  border-radius: 6px;
+  box-sizing: border-box;
+  margin-top: 11px;
+  height: 247px;
+  padding: 8px 17px 17px 14px;
+}
+
+.perfil-info h1 {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #1890FF;
+  margin-bottom: 19px;
+}
+
+.perfil-info p {
+  padding: 8px 10px;
+  background-color: #FFF;
+  border: 1px solid #D9D9D9;
+  border-radius: 4px;
+
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #737373;
+
+  margin-bottom: 5px;
 }
